@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/photoColor">
+
+
+    <include layout="@layout/header"
+        android:id="@+id/include" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@color/photoColor"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/bg"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:background="@color/photoColor">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/photoBtn"
+            android:text="Photos"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@drawable/round_bottom_photo"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/videoBtn"
+            android:text="Videos"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@drawable/round_bottom_video"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/liveBtn"
+            android:text="Live"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@drawable/round_bottom_live"
+            android:layout_marginTop="2dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:layout_below="@+id/linerLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/photoColor"
+        android:scrollbars="vertical">
+
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/rv_images"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+        <!--<include-->
+            <!--android:id="@+id/galleryImagesGridView"-->
+            <!--layout="@layout/content_gallery_grid"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+        <Gallery
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/gallery"></Gallery>
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

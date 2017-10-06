@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/login_bg">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:text="@string/sharing"
+                android:textSize="@dimen/_15sdp"
+                android:maxLines="3"
+                android:id="@+id/text_desp"
+                android:textColor="@color/white"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_margin="10dp"
+        android:id="@+id/r_layout1"
+        android:elevation="5dp">
+
+        <Button
+            android:id="@+id/btnSocialLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/loginbg"
+            android:padding="5dp"
+            android:textSize="@dimen/_8sdp"
+            android:text="@string/socialLogin"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btnSocialShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/loginbg"
+            android:textSize="@dimen/_8sdp"
+            android:padding="5dp"
+            android:text="@string/socialShare"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#17181c</color>
+    <color name="colorPrimaryDark">#17181c</color>
+    <color name="textColorPrimary">#17181c</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#00aeea</color>
+    <color name="sap">#b6b5b3</color>
+    <color name="signupsap">#646266</color>
+    <color name="edittextbg">#a3a3a6</color>
+    <color name="textcolor">#231503</color>
+    <color name="black">#000000</color>
+    <color name="loginbg">#0e4e91</color>
+    <color name="colorBlack">#000000</color>
+    <color name="baseColor">#00BFFF</color>
+    <color name="textWhite">#FFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#f00</color>
+    <color name="blue">#009de0</color>
+    <color name="off_white">#00f1f5f7</color>
+    <color name="blue_selector">#00aeea</color>
+    <color name="red_negative_progress">#ff3333</color>
+
+    <color name="bg_color">#e3ebee</color>
+    <color name="color_grey">#2a2d30</color>
+
+    <color name="background">#E0E0E0</color>
+    <color name="grey">#757575</color>
+
+    <color name="liveColor">#f43535</color>
+    <color name="photoColor">#007cbb</color>
+    <color name="videoColor">#1cb05a</color>
+
+    <!-- Wall Color Scheme -->
+
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="bg_Color">#2c3e50</color>
+    <color name="listviewcolor">#34495e</color>
+    <color name="btnColor">#7f8c8d</color>
+
+    <color name="Transparent">#00000000</color>
+
+
+
+</resources>

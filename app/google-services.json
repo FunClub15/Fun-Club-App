@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "37046658900",
+    "firebase_url": "https://funclub-587f4.firebaseio.com",
+    "project_id": "funclub-587f4",
+    "storage_bucket": "funclub-587f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37046658900:android:3cbf75ae5848f5a4",
+        "android_client_info": {
+          "package_name": "com.techminds.funclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37046658900-65vg977dkk94h9eaekg0klvc7fc2kps0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techminds.funclub",
+            "certificate_hash": "4a943ae13585bd995279ae8d56eb58658eceb080"
+          }
+        },
+        {
+          "client_id": "37046658900-9k5lkcmo8n4senopgu1rret09ho8n3r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4hhuXodYMBdUl3aUziiYcchUeD4A6WHw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37046658900-9k5lkcmo8n4senopgu1rret09ho8n3r8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

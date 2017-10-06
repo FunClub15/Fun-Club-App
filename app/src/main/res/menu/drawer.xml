@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:checked="false"
+            android:icon="@drawable/icon_interior"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/wall"
+            android:checked="false"
+            android:icon="@drawable/icon_newsfeed2"
+            android:title="Wall"/>
+        <item
+            android:id="@+id/event"
+            android:checked="false"
+            android:icon="@drawable/icon_events"
+            android:title="@string/event" />
+
+        <item
+            android:id="@+id/souvenir"
+            android:checked="false"
+            android:icon="@drawable/icon_suvenir"
+            android:title="@string/sourvenir"/>
+
+        <item
+            android:id="@+id/interior"
+            android:checked="false"
+            android:icon="@drawable/icon_interior"
+            android:title="@string/interior" />
+        <item
+            android:id="@+id/content"
+            android:checked="false"
+            android:icon="@drawable/icon_interior"
+            android:title="@string/content" />
+        <item
+         android:id="@+id/Update"
+            android:checked="false"
+            android:icon="@drawable/icon_interior"
+            android:title="@string/updateProfile" />
+        <item
+            android:id="@+id/Logout"
+            android:checked="false"
+            android:icon="@drawable/icon_interior"
+            android:title="@string/logout" />
+
+
+    </group>
+</menu>

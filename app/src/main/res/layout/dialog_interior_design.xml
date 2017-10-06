@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/login_bg">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+
+            <TextView
+
+                android:id="@+id/text_desp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/imageSelection"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/r_layout1"
+        android:elevation="5dp">
+
+
+
+        <Button
+            android:id="@+id/btnNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/loginbg"
+            android:padding="10dp"
+            android:text="NO"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/loginbg"
+            android:padding="10dp"
+            android:text="OK"
+            android:layout_marginRight="29dp"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="29dp" />
+
+
+    </RelativeLayout>
+
+        </LinearLayout>
+
+</RelativeLayout>

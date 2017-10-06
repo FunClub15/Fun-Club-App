@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">FunClub</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_log_in_activty">LogInActivty</string>
+
+    <string name="start_time">00:00:00</string>
+    <string name="gender">Select Gender</string>
+
+    <!--Login Strings-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="conform_password">Confirm Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+
+    <!--signup strings-->
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="register">Register</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="socialLogin">Login</string>
+    <string name="socialShare">Share</string>
+    <string name="email">Email Address</string>
+    <string name="name">Full Name</string>
+    <string name="phno">Phone Number</string>
+    <string name="signupas">Sign up As</string>
+    <string name="agreeterms">I agree to the term &amp; conditions</string>
+
+    <!-- Sign up information Text  -->
+
+    <string name="emailinformation">Email should be in a format as follows Example@Example.com</string>
+    <string name="usernameinformation">You can chose any username you want for Example John Doe</string>
+    <string name="passwordinformation">Password should be atleast 5 characters long Tip Choose strong password with the combination of Numbers and special Characters.</string>
+    <string name="confirminformation">Enter the same password as above</string>
+    <string name="nameinformation">Enter your name here</string>
+    <string name="phoneinformation">enter phone number here</string>
+
+    <!--DashBoards Strings-->
+    <string name="dashboard">DashBoard</string>
+
+
+    <string name="hotoftheday">Hot of the day item</string>
+
+    <!--EventDetailsModal Strings-->
+    <string name="rockrollmerathon">ROCK N ROLL MARATHON</string>
+    <string name="detailstext">Run the light-filled las Vagas Strip at night as you race to the sound your favourite beats.The Rock \'n\' Roll Marathon was created to make running fun Have you ever trid running without a beat? Exactly.While Las Vegas Maya be the marquee run in this event, the Rock \'n\' Roll Marathon travels the country and makes stops in cities like D.C,Phonix Dallas,Nashville,Seattle,Chicago,and more.if you love running and music,this event is for you ,as you can choose to run a 5k,10k, half marathon or full marathon</string>
+    <string name="location">Las Vegas Nevada</string>
+    <string name="buytickets">Buy Tickets</string>
+
+    <!--Navigation Strings-->
+    <string name="event">Events</string>
+    <string name="sourvenir">Souvenirs</string>
+    <string name="interior">Interior Design</string>
+    <string name="content">Content</string>
+    <string name="updateProfile">Update Profile</string>
+    <string name="logout">Logout</string>
+    <string name="events">Events</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="error_name">Name is missing</string>
+    <string name="error_user_name">Username is missing</string>
+    <string name="error_phone">Phone Number is missing</string>
+    <string name="error_email2">Email is missing</string>
+    <string name="error_email">Invalid email</string>
+
+    <string name="error_data">Fill missing fields</string>
+    <string name="error_password">Password Should be at least 5 character</string>
+    <string name="error_re_password">Password don\'t match</string>
+
+    <string name="john">JOHN SUTTER</string>
+    <string name="background">BACKGROUND</string>
+    <string name="stickers">TATTOO ROOM</string>
+    <string name="emojis">EMOJIS</string>
+    <string name="photos">PHOTOS</string>
+    <string name="camera">CAMERA</string>
+    <string name="headboards">HEADBOARDS</string>
+    <string name="gallary">STYLE</string>
+    <string name="choose">CHOOSE</string>
+    <string name="button_label">OK</string>
+
+    <!--Activity Event Details Strings-->
+    <string name="content_text_marathon"> Run the light-filled Las Vegas Strip at night as you race to the sound to your favorite beats. The Rock-n-Roll Marathon was created to make running fun. have you ever tried running without a beat? Exactly. While Las Vegas may be the marquee run in the event the Rock-n-Roll Marathon travels the country and makes stop city like D.C., Phoenix, Dallas, Nashville, Seattle, Chicago, and more . If you love running and music, this event for you, as you xan choose to run a 5k, 10k, half marathon or full marathon. </string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="place">Las Vegas Nevada</string>
+    <string name="date">November 10-13,2016</string>
+    <string name="event_name">ROCK \'N\' ROLL MARATHON </string>
+    <string name="likes">Likes</string>
+    <string name="no_of_likes">112</string>
+    //Event Calendar
+    <string name="calendar_place">PORTLAND,OREGON</string>
+
+    <string name="calendar_event_name">CELEBRATION OREGON COUNTRY</string>
+
+    <string name="calendar_date">Sep 15-18,2016</string>
+
+    <string name="calendar_name">Feast Portland</string>
+
+    <!-- Strings Of Surviver Fragment-->
+
+    <string name="phone">Phone Number</string>
+    <string name="nl7660">NL 7660 One Gram Gold Plated</string>
+    <string name="gold">Gold -  Temple Jewellery</string>
+    <string name="soldby">Sold By</string>
+    <string name="moreby">More by the selector | seller info</string>
+
+    <!-- Strings Of Event Details-->
+    <string name="feastportland">FEAST PORTLAND</string>
+    <string name="loading">Please Wait..</string>
+    <string name="error">Network error!</string>
+    <string name="celebration">A CELEBRATION OF OREGON COUNTRY</string>
+    <string name="portland">PORTLAND,OREGON</string>
+    <string name="reg_desc">We have sent you an activation link on your provided email address, kindly check your email and activate your account. </string>
+    <string name="sharing">What would you like to do?</string>
+    <string name="thank_desc">
+    We have sent you an activation link on your provided email address, kindly check your email and activate your account, if you are unable to find in your inbox then please check Junk Emails
+    </string>
+    <string name="forgot_desc">Enter your email address and we\'ll send a link to reset your password to the address we have for your account.</string>
+    <string name="resend_desciption">Enter your email address and we\'ll send a account activation link to the address we have for your account.</string>
+    <string name="account_inactive">Activate your account by clicking on the link we sent you on your email address or if you have not recieved the activation link click Resend button below.</string>
+
+    <!-- <string name="facebook_app_id">225053728017194</string> -->
+
+    <string name="imageSelection">This image has been added on to your dashboard,
+        do you want to select more images?</string>
+    <string name="facebook_app_id">1089060254557916</string>
+    <!--  <string name="fb_login_protocol_scheme">fb225053728017194</string> -->
+    <string name="fb_login_protocol_scheme">fb1089060254557916</string>
+
+
+    <string name="logout_text">Are you sure you want to logout?</string>
+
+
+    <!-- Wall Strings -->
+    <string name="status_hint">What\'s on your mind?</string>
+
+    <string name="Picture">Picture</string>
+    <string name="Video">Video</string>
+    <string name="Post">Post</string>
+
+    <string name="erroroccured">Error ocurred please try again</string>
+
+
+
+
+</resources>

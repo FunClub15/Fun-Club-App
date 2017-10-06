@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/feed_item_margin"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/feed_item_padding_top_bottom"
+        android:paddingTop="@dimen/feed_item_padding_top_bottom" >
+
+
+    <LinearLayout
+
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/feed_item_padding_left_right"
+            android:paddingRight="@dimen/feed_item_padding_left_right" >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/profilePic"
+                android:layout_width="@dimen/feed_item_profile_pic"
+                android:layout_height="@dimen/feed_item_profile_pic"
+                android:background="@drawable/imageborder"
+                android:scaleType="fitCenter" >
+            </com.android.volley.toolbox.NetworkImageView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/feed_item_profile_info_padd" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:textColor="@color/white"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/feed_item_profile_name"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/timestamp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/timestamp"
+                    android:textSize="@dimen/feed_item_timestamp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/txtStatusMsg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+            android:paddingRight="@dimen/feed_item_status_pad_left_right"
+            android:paddingTop="@dimen/feed_item_status_pad_top" />
+
+        <TextView
+            android:id="@+id/txtUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+            android:paddingRight="@dimen/feed_item_status_pad_left_right"
+            android:textColorLink="@color/link" />
+
+        <com.example.malik.facebooknewsfeed.FeedImageView
+            android:id="@+id/feedImage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:gravity="left|center"
+                    android:background="@drawable/circle2"
+                    android:ellipsize="end"
+                    android:textColor="@color/white"
+                    android:id="@+id/numberoflikestextview"
+                    android:src="@drawable/ic_thumb_up_white_24dp"/>
+
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:id="@+id/liketextview"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:maxLines="1"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="20" />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="end"
+                        android:paddingRight="@dimen/_6sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:gravity="left|center"
+                            android:background="@drawable/circle2"
+                            android:ellipsize="end"
+                            android:textColor="@color/white"
+                            android:id="@+id/numberofcommentstextview"
+                            android:src="@drawable/ic_mode_comment_white_24dp"/>
+
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:id="@+id/commenttextview"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:maxLines="1"
+                            android:textSize="@dimen/_13sdp"
+                            android:text="20" />
+
+
+
+
+                    </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:weightSum="2">
+
+        <Button
+            android:background="@drawable/buttonlayout"
+            android:id="@+id/likeButton"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:text="Like"
+            android:gravity="left|center"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/_4sdp"
+            android:drawable="@drawable/ic_thumb_up_white_24dp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:paddingLeft="@dimen/_50sdp"
+            android:drawableStart="@drawable/ic_thumb_up_white_24dp"
+            android:layout_marginRight="@dimen/_5sdp"/>
+
+
+        <Button
+
+            android:textColor="@color/white"
+            android:id="@+id/commentButton"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonlayout"
+            android:drawablePadding="@dimen/_4sdp"
+            android:textAllCaps="false"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_mode_comment_white_24dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/_50sdp"
+            android:text="Comment" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--<LinearLayout android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="2"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/button"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="somebutton" />-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
